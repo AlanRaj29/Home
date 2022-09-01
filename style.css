@@ -1,99 +1,119 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body .coverImage > .row .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+body .coverImage > .row .navbar > .left-route {
+  width: 120px;
+}
+body .coverImage > .row .navbar > .center-route > a {
+  text-decoration: none;
+  color: #fdfefe;
+  margin: 0px 10px;
+  font-weight: 800px;
+  font-size: 18px;
+}
+body .coverImage > .row .navbar > .center-route > .right-route > i {
+  color: #fdfefe;
+  height: 50px;
+  width: 160px;
+  background-color: #a1cdea;
+  border-radius: 40px;
+  font-weight: 700px;
+  font-size: 14px;
 }
 
-main {
-  position: relative;
+body .coverImage {
   height: 100vh;
   background-image: url("Image/appy.jpg");
 }
-
-.row {
-  position: absolute;
+body .coverImage > .row {
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, rgba(74, 44, 191, 0.73) 20%, rgba(106, 198, 240, 0.81) 100%);
 }
-
-.left-router {
-  margin: 20px;
-  width: 100px;
+body .coverImage > .row > .row {
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
 }
-
-.navlinks {
+body .coverImage > .row > .row > .col1 > .image {
+  width: 400px;
+}
+body .coverImage > .row > .row .col2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 700px;
+}
+body .coverImage > .row > .row .col2 > .font1 {
+  font-size: 60px;
+}
+body .coverImage > .row > .row .col2 > .font2 {
+  margin: 10px 0px;
+  font-size: 16px;
+}
+body .coverImage > .row > .row .col2 > .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
-  text-align: center;
-  text-decoration: none;
-  flex-direction: row;
-  float: left;
-  gap: 50px;
-}
-
-.list {
-  margin-left: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-li a {
-  color: #fffffc;
-  font-weight: 800;
-  font-size: 18px;
-}
-
-.Right-router {
-  float: right;
-  color: #fffffc;
-  background-color: #a1ceea;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  padding: 20px 40px;
-  border-radius: 50px;
-  margin-left: 100px;
-  font-weight: 700;
+  height: 50px;
+  width: 160px;
+  background-color: #FFFFFF;
+  border-radius: 40px;
   font-size: 14px;
+  font-weight: 600;
+  color: #769ce8;
+  margin: 20px 0px;
+}
+body .coverImage > .row > .row .col2 > .btn:hover {
+  color: #FFFFFF;
+  background-color: #769ce8;
 }
 
-.Right-router:hover {
-  background-color: #fffffc;
-  color: #337ab7;
+body .container1 {
+  margin-top: 250px;
+  width: 100%;
 }
-
-.Phone-Image {
+body .container1 > .row {
+  max-width: 1000px;
+  margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  float: left;
-  margin-left: 80px;
-  margin-top: 80px;
-  width: auto;
+  text-align: center;
+}
+body .container1 > .row > img {
+  margin: auto;
+}
+body .container1 > .row > h5 {
+  margin: 20px auto;
+  color: #8790c1;
+}
+body .container1 > .row > .font1 {
+  font-size: 30px;
+  margin: 20px auto;
+  color: #5e88fc;
+}
+body .container1 > .row > .font2 {
+  margin: 20px auto;
+  color: #8790af;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80px;
-  font-weight: 80;
-  color: #fffffc;
-  margin-top: 200px;
-  margin-right: 100px;
-}
-
-.sub-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 800;
-  color: #fffffc;
-  margin-top: 50px;
-  margin-right: 100px;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=style.css.map */

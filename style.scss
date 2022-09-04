@@ -2,6 +2,8 @@
 
 @import "./coverImage";
 @import "./Container1";
+@import "./Container2";
+@import "./Container3";
 
 
 *{
@@ -14,9 +16,9 @@
 body {
   @extend %CoverImage;
   @extend %Container1;
+  @extend %Container2;
+  @extend %Container3;
 }
-
-
 
 
 

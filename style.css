@@ -2,6 +2,7 @@
 body .coverImage > .row .navbar {
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,14 +21,22 @@ body .coverImage > .row .navbar > .center-route > a {
   font-weight: 800px;
   font-size: 18px;
 }
-body .coverImage > .row .navbar > .center-route > .right-route > i {
-  color: #fdfefe;
+
+.right-route > p {
+  width: 150px;
   height: 50px;
-  width: 160px;
+  color: #fffdfd;
   background-color: #a1cdea;
   border-radius: 40px;
   font-weight: 700px;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-route > p:hover {
+  color: 337ab7;
+  background-color: aliceblue;
 }
 
 body .coverImage {
@@ -85,6 +94,7 @@ body .coverImage > .row > .row .col2 > .btn:hover {
 body .container1 {
   margin-top: 250px;
   width: 100%;
+  height: 550px;
 }
 body .container1 > .row {
   max-width: 1000px;
@@ -110,6 +120,56 @@ body .container1 > .row > .font1 {
 body .container1 > .row > .font2 {
   margin: 20px auto;
   color: #8790af;
+}
+
+body .column {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100vh;
+  background-color: rgb(245, 246, 255);
+  overflow: hidden;
+}
+body .column > .col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: auto 80px;
+  box-sizing: border-box;
+  gap: 40px;
+}
+body .column > .col1 > .font1 {
+  font-size: 16px;
+  color: #8792b9;
+}
+body .column > .col1 > .font2 {
+  font-size: 21px;
+  color: #434345;
+}
+body .column > .col1 > .font3 {
+  font-size: 16px;
+  color: #9590b7;
+}
+body .column > .col1 > .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 160px;
+  background: linear-gradient(45deg, rgba(74, 44, 191, 0.73) 20%, rgba(106, 198, 240, 0.81) 100%);
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 40px;
+}
+body .column > .col2 > .img1 {
+  position: absolute;
+  overflow: hidden;
+  width: auto;
+}
+body .column > .col2 > .img2 {
+  position: relative;
+  max-width: 100%;
+  height: auto;
 }
 
 * {
